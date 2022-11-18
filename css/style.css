@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: block;
+}
+
+#login {
+  border-color: black;
+  color: black;
+}
+.navbar {
+  background-color: darkgoldenrod;
+}
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+#messageIndex {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.title {
+  margin: 15px;
+}
+
+.mainFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgoldenrod;
+  height: 15vh;
+}
+
+#loginForm {
+  margin-top: 20px;
+}
+
+#cardContainer {
+  margin: 15px;
+}
+.animalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.card {
+  width: 280px;
+  margin: 10px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+#goToFormOne {
+  color: black;
+  border-color: black;
+}
+
+.tania {
+  background-color: red;
+}
+
+#title {
+  margin: 10px;
+}
